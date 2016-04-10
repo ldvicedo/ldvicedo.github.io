@@ -1,0 +1,130 @@
+<?php
+//set_include_path ('includes');
+?>
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="descriptions" content="LD Vicedo is a web developer who loves to develop websites from scratch." />
+	<meta name="keywords" content="Responsive, Portfolio, Scaling Background Images, Media Queries, CSS3, HTML 5" />
+	<title>LD Vicedo - Web Developer</title>
+	<link rel="stylesheet" href="css/html5doctor.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/media-query.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container">
+	<img src="images/header.jpg" alt="Header" />
+	<div class="wrap">
+		<div class="wrap-inner">
+			<div class="wrap-content">
+				<section>
+					<div id="header">
+						<h1>Lyndon<span>Vicedo</span></h1>
+						<h2>I'm a Web Developer based in Cebu, Philippines</h2>
+						<a href="#">Download CV</a>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container clearfix">
+	<img src="images/cover.jpg" alt="Cover" class="fix-space" />
+	<div class="wrap">
+		<div class="wrap-inner">
+			<div class="wrap-content">
+				<section>
+					<div id="slider">
+						<div class="cycle-slideshow" 
+							data-cycle-fx="scrollHorz" 
+							data-cycle-timeout="10000"
+							data-cycle-prev="#prev"
+							data-cycle-next="#next"
+							data-cycle-pager=".pager"
+							data-cycle-pause-on-hover="true"
+							data-cycle-slides="> div"
+							>
+							<div>
+								<span class="feat-image"><img src="images/1.png" alt="slider" class="center-image"/></span>
+								<span class="feat-box">
+									<span class="title">Virtual Playground</span>
+									<span class="subtitle">Playing with Endless Scrolling</span>
+									<span class="feat-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</span>
+									<span class="feat-button"><a href="#">View</a></span>
+								</span>
+							</div>
+							<div>
+								<span class="feat-image"><img src="images/2.png" alt="slider" class="center-image"/></span>
+								<span class="feat-box">
+									<span class="title">Virtual Playground</span>
+									<span class="subtitle">Fun with Responsive Websites</span>
+									<span class="feat-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</span>
+									<span class="feat-button"><a href="#">View</a></span>
+								</span>
+							</div>
+						</div>
+						<span id="prev"></span>
+						<span id="next"></span>
+						<div class="pager"></div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container clearfix">
+	<img src="images/ads.jpg" alt="Ads" />
+</div>
+<div class="container clearfix">
+	<img src="images/cover.jpg" alt="Cover" class="fix-space" />
+	<div class="wrap">
+		<div class="wrap-inner">
+			<div class="wrap-content">
+				<section>
+					<div id="about">
+						<h1>Skills and Expertise</h1>
+						<h2>What I don't know, I can learn</h2>
+						<p>As a web developer, the learning never stops. New languages are introduced every year and trends change. That's what makes my job <span>challenging yet fun</span>. Just imagine using the same stuff and routine everyday for a long period of time! Ain't that just boring?</p>
+						<ul>
+							<li><img src="images/html5.png" alt="HTML5" width="96" height="97" /></li>
+							<li><img src="images/css3.png" alt="HTML5" width="96" height="97" /></li>
+							<li><img src="images/wp.png" alt="HTML5" width="96" height="97" /></li>
+							<li><img src="images/ps.png" alt="HTML5" width="96" height="97" /></li>
+						</ul>
+						<p class="content-me">When boredom strikes, I check out the latest gadgets and research on the latest trends on web design.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container clearfix">
+	<img src="images/footer.jpg" alt="Footer" />
+	<div class="wrap">
+		<div class="wrap-inner">
+			<div class="wrap-content">
+				<section>
+					<div id="footer">
+						<h1>Contact</h1>
+						<p>Thank you for checking out my work!<br /> If you have questions, feel free to send me a message.</p>
+						<ul>
+							<li><img src="images/twitter.png" alt="HTML5" width="89" height="89" /></li>
+							<li><img src="images/facebook.png" alt="HTML5" width="89" height="89" /></li>
+							<li><img src="images/behance.png" alt="HTML5" width="89" height="89" /></li>
+							<li><img src="images/email.png" alt="HTML5" width="89" height="89" /></li>
+						</ul>
+						<p class="copyright">Copyright &copy; 2014 <span><strong>Lyndon Dennis</strong></span>. All rights reserved.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/cycle2.js"></script>
+</body>
+</html>
+<?php exit; ?>
