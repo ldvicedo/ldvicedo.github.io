@@ -1,3 +1,32 @@
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+
+@media only screen and (max-device-width: 980px) {
+	body, html {
+		height: auto;
+	}
+
+   .container {
+   		height: auto;
+   }
+
+   .disable-parallax {
+   		display: block;
+   }
+   .parallax-header, .parallax-ads, .parallax-footer {
+   		/* The image used */
+	    background: none;
+
+	    /* Set a specific height */
+	    height: auto;
+
+	    /* Create the parallax scrolling effect */
+	    background-attachment: scroll;
+	    background-position: left top;
+	    background-repeat: no-repeat;
+	    background-size: auto;
+   }
+}
+
 @media only screen and (min-width: 640px) and (max-width: 768px) {
 	.fix-space {
 		margin: 0;

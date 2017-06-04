@@ -63,6 +63,60 @@ body {
 	margin-bottom: -3px;
 }
 
+/* created this class because this was not part of the parallax */
+
+.container-ads {
+	width: 100%;
+	padding: 0;
+	margin:auto;
+	position: relative;
+}
+
+.container-ads img {
+	width: 100%;
+	height: auto;
+	margin-bottom: -3px;
+}
+
+
+/* disable non-parallax */
+
+.disable-parallax {
+	display: none;
+}
+
+/*parallax*/
+
+.parallax-header {
+    /* The image used */
+    background: url(../images/header.jpg);
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-footer {
+    /* The image used */
+    background: url(../images/footer.jpg);
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*end parallax*/
+
 .wrap {
 	position: absolute;
 	top: 5px;
